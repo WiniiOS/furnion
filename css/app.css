@@ -1,0 +1,272 @@
+body{
+    overflow-x: hidden;
+}
+nav{
+    height: 80px;
+    padding: 10px;
+    background-color: #fff !important;
+    color: #000 !important;
+    margin: 2px !important;
+}
+nav li a{
+    color: rgb(0, 0, 0) !important;
+    font-size: 0.8em !important;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: uppercase;
+}
+nav li a:hover{
+    color: #c8a165 !important;
+    background-color: #eee !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.8em !important;
+    color: #000 !important;
+    margin-right: 60px;
+    text-transform: uppercase;
+}
+nav .special{
+    color: #c8a165;
+}
+nav ul .glyphicon{
+    color:#c8a165 ;
+    font-size: 1.8em;
+}
+
+/* Banniere */
+
+#carousel{
+    background-color: #e4dede;
+}
+.item h1{
+    color:#c8a165  ;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.item p{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+}
+.item p .btn {
+    margin: 5px 30px 5px 30px !important;
+    border-radius: 0;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.item p .btn:hover{
+    color: rgb(184, 129, 68);
+    background-color: #fff;
+}
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.my-item{
+    display: inline-block;
+   padding-top: 15%;
+}
+.glyphicon-chevron-right:before{
+    color: #000;
+    font-size: 20px;
+   
+}
+.glyphicon-chevron-left:before{
+    color: #000;
+    font-size: 20px;
+}
+.carousel-control.left{
+    margin-left: -10%;
+}
+.carousel-control.right{
+    margin-right: -10%;
+}
+#caroussel{
+    width: 100%;
+    background-color: aliceblue;
+
+}
+/* OUR CREATIVE FURNITURE */
+
+.creative h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.creative p{
+    width: 330px;
+    height: 245px;
+    margin: auto;
+}
+
+.creative .btn{
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    border-radius: 0;
+    border: 1px solid black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    background-color: #fff;
+}
+.creative .btn:hover{
+    color:rgb(184, 129, 68);
+}
+
+/*  */
+
+.products h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.products .btn{
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    border-radius: 0;
+    border: 1px solid black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    background-color: #fff;
+}
+.products .btn:hover{
+    color: rgb(184, 129, 68);
+}
+.products .name{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.products .prix{
+    color: rgb(184, 129, 68);
+    text-align: center;
+    font-weight: bold;
+}
+/* ON INSTAGRAM */
+
+.onInstagram h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#insta h2{
+    background-color: rgba(219, 219, 208, 0.068) !important;
+}
+#insta,#insta h2{
+    background-color: rgba(219, 219, 208, 0.5);
+    padding: 40px;
+}
+
+/* news */
+
+a:hover{
+    text-decoration: none;
+    color: rgb(184, 129, 68);;
+}
+a{
+    color: #000;
+}
+
+p.cart-content{
+    height: 120px;
+}
+
+.news h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+/* subscribe */
+#subscribe{
+    background-color: rgba(219, 219, 208, 0.5);
+    padding: 40px;
+}
+#subscribe h3{
+   
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+#subscribe p{
+    font-size: 0.9em;
+    text-align: justify;
+}
+#subscribe input{
+    border-color: rgb(184, 129, 68) !important;
+}
+
+#subscribe .btn{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+}
+
+/* FOOTER */
+footer{
+    padding: 50px;
+    background-color: rgba(219, 219, 208, 0.829);
+    padding: 40px;
+}
+
+footer h4{
+    color: rgb(184, 129, 68);
+    font-size: 0.9em;
+}
+footer .btn{
+    background-color: rgb(184, 129, 68);
+    border-color: inherit;
+}
+footer .btn:hover{
+    background-color: #eee;
+    color: rgb(184, 129, 68);
+    border-color: inherit;
+}
+footer ul li{
+    list-style: none;
+}
+footer a{
+    font-size: 0.79em;
+}
+footer .copyright{
+    text-align: center;
+}
+@media all and (max-width:767px)
+{   
+    
+    nav,nav #navbar{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+
+    .navbar-collapse{
+        position: absolute;
+        top: 0;
+        z-index: 3;
+    }
+    #caroussel{
+        opacity: 0.5;
+        /* display: none; */
+    }
+
+
+}
